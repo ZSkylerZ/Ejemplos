@@ -1,0 +1,34 @@
+* {
+    padding: 20px;
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    margin: -22px;
+    padding: 0px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.combinator {
+    text-align: right;
+    color: #000000;
+    font-family: 'Oswald';
+    word-spacing: 2px;
+    background-image: url(/img/ej07/decoration.png),url(/img/ej07/ribbon.png),url(/img/ej07/old_paper.jpg) ;
+    width: 1200px;
+    height: 600px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 0 0, 100% 100%, 0 0 ;
+    
+}
+
+.combinator p {
+    text-align: right;
+    font-size: 40px;
+}
+
+

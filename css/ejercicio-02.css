@@ -1,0 +1,46 @@
+.clock {
+    position: relative;
+    width: 378px;
+    height: 378px;
+    background-image: url(/img/img/clockFace.png);
+    left: 50%;
+    margin: 50px 0 0 -189px;
+}
+
+.clock div {
+    position: absolute;
+}
+
+img {
+    --overflow-clip-margin: content-box;
+      overflow: ;
+}
+
+
+.hour{
+    animation: hora 43200s linear infinite;
+}
+
+.minute{
+    animation: hora 3600s linear  infinite ;
+}
+
+.second{
+    animation: hora 60s linear  infinite ;
+}
+
+
+@keyframes hora {
+   0%{
+    transform: rotate(0deg);
+   }
+
+   
+
+   100%{
+    
+        transform: rotate(360deg);
+   
+    }
+}
+        

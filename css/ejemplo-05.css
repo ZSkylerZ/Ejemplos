@@ -1,0 +1,51 @@
+* {
+    padding: 10px;
+    margin: 5px;
+}
+
+body {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+.menu {
+    font-size: 15px;
+    
+}
+
+.ejemplo1 {
+    text-shadow: 1px 1px 2px black;
+}
+
+.ejemplo2 {
+    color: white;
+    text-shadow: 0px -2px 18px #ff0000, 0px -1px 5px #000000
+}
+
+.ejemplo3 {
+    text-shadow: 0px 7px 4px #5e3cf8, 3px -5px 4px #42dd36, -3px -5px 4px #f71616
+}
+
+.ejemplo4 {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    background-color: rgb(221 221 221);
+    width: 781px;
+}
+
+.ejemplo5 {
+    color: #999999;
+    text-shadow: -2px -1px 2px rgb(255 255 255 / 78%), 1px 2px 2px #00000061;
+    background-color: #999999;
+    width: 781px;
+    text-transform:unset;
+}
+
+.ejemplo6 {
+    color: #d1d1d1;
+    text-shadow: -3px -2px 1px #0000006b, 2px 2px 2px rgb(255 255 255 / 66%);
+    background-color:  #d1d1d1;
+    width: 781px;
+    text-transform:unset;
+}

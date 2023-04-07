@@ -1,0 +1,106 @@
+#container{
+   display: flex;
+   flex-direction: column;
+
+}
+
+.box {
+    
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 20px;
+    position: absolute;
+    padding: 10px;
+    color: aliceblue;
+    
+    
+    left: 20px;
+    
+}
+
+ .ex01 .box{
+   animation: animacion1 4s linear 1, animacion0 4s linear  1  ;
+   top: 50px;
+}
+
+.ex02 .box{
+    animation: animacion2 6s ease-in 1, animacion0 6s ease-in  1  ;
+    top: 200px;
+ }
+
+ .ex03 .box{
+    animation: animacion3 8s ease-out 1, animacion0 8s ease-out 1  ;
+    top: 350px;
+ }
+
+ .ex04 .box{
+    animation: animacion4 10s cubic-bezier(0.075, 0.82, 0.165, 1) 1, animacion0 10s cubic-bezier(0.075, 0.82, 0.165, 1)  1  ;
+    top: 500px;
+ }
+
+
+  
+
+@keyframes animacion0 {
+
+    0% {
+        transform: rotate(0deg);
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        font-size: 20px;
+        color: aliceblue;
+        left: 20px;
+    }
+    
+    100% {
+        transform: rotate(270deg);
+        width: 50px;
+        height: 50px;
+        background-color: blue;
+        color: yellow;
+        font-size: 18px;
+        left: 600px;
+    }
+}
+
+@keyframes animacion1 {
+    0%{
+        top: 50px;
+    }
+
+    100%{
+        top: 200px;
+    }
+}
+
+@keyframes animacion2 {
+    0%{
+        top: 200px;
+    }
+
+    100%{
+        top: 50px;
+    }
+}
+
+@keyframes animacion3 {
+    0%{
+        top: 350px;
+    }
+
+    100%{
+        top: 500px;
+    }
+}
+
+@keyframes animacion4 {
+    0%{
+        top: 500px;
+    }
+
+    100%{
+        top: 350px;
+    }
+}
